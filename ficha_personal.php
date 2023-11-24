@@ -1,5 +1,12 @@
 <?php
 
+//Estas lineas son para habilitar los errores y que se reporten. Tenerlas siempre que desarrollemos
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+
+
 date_default_timezone_set("America/Argentina/Buenos_Aires");
 
 $nombre = "Elias Ochi";
