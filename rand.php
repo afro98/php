@@ -17,10 +17,10 @@ if($valor == 1 || $valor == 3 || $valor == 5){
 
 
 
-if($valor % 2 == 0){ //Analiza el resto de dividir por 2, todo número divisible por 2 es par
+/*if($valor % 2 == 0){ //Analiza el resto de dividir por 2, todo número divisible por 2 es par
     echo "$valor es par";
 } else {
     echo "$valor es impar";
-}
+}*/
 
 ?>
