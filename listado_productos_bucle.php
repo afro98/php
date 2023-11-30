@@ -6,14 +6,6 @@ ini_set('display_errrors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$nombre = "Elias Ochi";
-
-$edad = 25;
-
-$aPeliculas = ["Goodfellas", "The Shining", "Apocalypse Now"];
-
-
-
 $aProductos = array();
 
 $aProductos[] = array(
@@ -55,48 +47,6 @@ $aProductos[] = array(
 <body>
 
     <main class="container">
-
-        <div class="row">
-            <div class="col-12 text-center py-5">
-
-                <h1>Ficha Personal</h1>
-
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-12">
-
-                <table class="table table-hover border">
-
-                    <tr>
-                        <th>Fecha:</th>
-                        <td><?php echo date("d/m/Y)"); ?></td>
-                    </tr>
-
-                    <tr>
-                        <th>Nombre y apellido:</th>
-                        <td><?php echo $nombre; ?></td>
-                    </tr>
-
-                    <tr>
-                        <th>Edad:</th>
-                        <td><?php echo $edad; ?></td>
-                    </tr>
-
-                    <tr>
-                        <th>Peliculas Favoritas:</th>
-                        <td>
-                            <?php echo $aPeliculas[0]; ?> <br>
-                            <?php echo $aPeliculas[1]; ?> <br>
-                            <?php echo $aPeliculas[2]; ?>
-                        </td>
-                    </tr>
-
-                </table>
-
-            </div>
-        </div>
 
         <div class="row">
             <div class="col-12 text-center py-5">
@@ -144,6 +94,7 @@ $aProductos[] = array(
         </div>
         
     </main>
+
 </body>
 
 </html>
