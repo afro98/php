@@ -34,22 +34,22 @@ error_reporting(E_ALL);
 
                     <div class="pb-3">
                         <label for="txtNombre">Nombre:*</label>
-                        <input type="text" name="txtNombre" id="txtNombre" class="form-control">
+                        <input type="text" name="txtNombre" id="txtNombre" class="form-control" required>
                     </div>
 
                     <div class="pb-3">
                         <label for="txtNombre">DNI:*</label>
-                        <input type="text" name="txtDni" id="txtDni" class="form-control">
+                        <input type="text" name="txtDni" id="txtDni" class="form-control" required>
                     </div>
 
                     <div class="pb-3">
                         <label for="txtNombre">Teléfono:*</label>
-                        <input type="number" name="txtTelefono" id="txtTelefono" class="form-control">
+                        <input type="number" name="txtTelefono" id="txtTelefono" class="form-control" required>
                     </div>
 
                     <div class="pb-3">
                         <label for="txtNombre">Edad:*</label>
-                        <input type="text" name="txtEdad" id="txtEdad" class="form-control">
+                        <input type="text" name="txtEdad" id="txtEdad" class="form-control" required>
                     </div>
 
                     <div class="pt-3">
